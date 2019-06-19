@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Online Courses</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <img src="img/logo.png" id="logo">
+            </div>
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                            <img src="img/cart.png" id="img-cart">
+                            <div id="shopping-cart">
+                                    <table id="cart-content" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Hình</th>
+                                                <th>Tên</th>
+                                                <th>Giá</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+                                    <a href="#" id="clear-cart" class="button u-full-width">Xóa khỏi giỏ hàng</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </header>
+
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                    <div id="content" class="six columns">
+                        <div class="hero-content">
+                            <div id="child-content">   
+                                <h2>Chọn ngay một khóa học! Ngay hôm nay</h2>
+                                <p>Với giá KHUYẾN MÃI chỉ còn 399.000đ</p>
+                            </div>
+                                
+                                <form action="#" id="search" method="post" class="form">
+                                    <input class="u-full-width" type="text" placeholder="What Do You Want To Learn? " id="search-course">
+                                    <input type="submit" id="submit-search-course" class="submit-search-course">
+                                </form>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-bar">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns icon icon1">
+                        <p>10,000 khóa học online <br>
+                        Đa dạng và phong phú các lĩnh vực</p>
+                    </div>
+                    <div class="four columns icon icon2">
+                        <p>Học cùng với chuyên gia<br>
+                        Cách dạy cuốn hút và không nhàm chán</p>
+                    </div>
+                    <div class="four columns icon icon3">
+                        <p>Lưu trữ mãi mãi<br>
+                        Học theo tốc độ của bản thân</p>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="courses-list" class="container">
+        <h1 id="heading" class="heading">Online Courses</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/course1.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>HTML5, CSS3, JavaScript cơ bản</h4>
+                        <p>Nguyễn Quang Khải</p>
+                        <img src="img/stars.png">
+                        <p class="price">899.000đ  <span class="u-pull-right ">399.000đ</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="1">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/course2.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Khóa học master đầu bếp cùng chuyên gia</h4>
+                            <p>Nguyễn Quang Khải</p>
+                            <img src="img/stars.png">
+                            <p class="price">899.000đ  <span class="u-pull-right ">399.000đ</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="2">Add to Cart</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/course3.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Guitar đệm hát cơ bản cho người mới bắt đầu</h4>
+                            <p>Nguyễn Quang Khải</p>
+                            <img src="img/stars.png">
+                            <p class="price">899.000đ  <span class="u-pull-right ">399.000đ</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="3">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/course4.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Khóa học làm vườn nghệ thuật siêu bắt mắt</h4>
+                        <p>Nguyễn Quang Khải</p>
+                        <img src="img/stars.png">
+                        <p class="price">899.000đ  <span class="u-pull-right ">399.000đ</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="4">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/course5.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Khóa học trang trí nội thất bằng sản phẩm tái chế</h4>
+                            <p>Nguyễn Quang Khải</p>
+                            <img src="img/stars.png">
+                            <p class="price">899.000đ  <span class="u-pull-right ">399.000đ</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="5">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/course1.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Thiết kế Website từ A-Z cho người mới bắt đầu</h4>
+                            <p>Nguyễn Quang Khải</p>
+                            <img src="img/stars.png">
+                            <p class="price">899.000đ  <span class="u-pull-right ">399.000đ</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="6">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/course2.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Khóa học thành thạo các món ngon gia đình truyền thống</h4>
+                        <p>Nguyễn Quang Khải</p>
+                        <img src="img/stars.png">
+                        <p class="price">899.000đ  <span class="u-pull-right ">399.000đ</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="7">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/course3.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Khóa học xây dựng Music studio cho riêng bạn</h4>
+                            <p>Nguyễn Quang Khải</p>
+                            <img src="img/stars.png">
+                            <p class="price">899.000đ  <span class="u-pull-right ">399.000đ</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="8">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/course4.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Khóa học cắm hoa nghệ thuật cùng chuyên gia</h4>
+                            <p>Nguyễn Quang Khải</p>
+                            <img src="img/stars.png">
+                            <p class="price">899.000đ  <span class="u-pull-right ">399.000đ</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="9">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/course5.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Khóa học làm các loại bánh từ cơ bản đến nâng cao</h4>
+                            <p>Nguyễn Quang Khải</p>
+                            <img src="img/stars.png">
+                            <p class="price">899.000đ  <span class="u-pull-right ">399.000đ</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="10">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="img/course1.jpg" class="course-image u-full-width">
+                            <div class="info-card">
+                                <h4>Khóa học lập trình JavaScript từ Zero-Hero</h4>
+                                <p>Nguyễn Quang Khải</p>
+                                <img src="img/stars.png">
+                                <p class="price">899.000đ  <span class="u-pull-right ">399.000đ</span></p>
+                                <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="11">Add to Cart</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="img/course2.jpg" class="course-image u-full-width">
+                            <div class="info-card">
+                                <h4>Thành thạo ngay 100 công thức nấu ăn tuyệt đỉnh</h4>
+                                <p>Nguyễn Quang Khải</p>
+                                <img src="img/stars.png">
+                                <p class="price">899.000đ  <span class="u-pull-right ">399.000đ</span></p>
+                                <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="12">Add to Cart</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+    </div>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns">
+                            <nav id="primary" class="menu">
+                                <a class="link" href="#">Doanh nghiệp</a>
+                                <a class="link" href="#">Trở thành giảng viên</a>
+                                <a class="link" href="#">Ứng dụng di động</a>
+                                <a class="link" href="#">Hỗ trợ</a>
+                                <a class="link" href="#">Giúp đỡ</a>
+                            </nav>
+                    </div>
+                    <div class="four columns">
+                            <nav id="secondary" class="menu">
+                                <a class="link" href="#">Về chúng tôi</a>
+                                <a class="link" href="#">Tham gia cùng chúng tôi</a>
+                                <a class="link" href="#">Blog</a>
+                            </nav>
+                    </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
